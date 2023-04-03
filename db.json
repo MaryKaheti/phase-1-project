@@ -6,8 +6,8 @@
         "description": ["The menstrual cycle is the monthly series of changes a woman's body goes through in preparation for the possibility of pregnancy.",
                          "Each month, one of the ovaries releases an egg — a process called ovulation. ",
                         "At the same time, hormonal changes prepare the uterus for pregnancy. If ovulation takes place and the egg isn't fertilized, the lining of the uterus sheds through the vagina.",
-                         "This is a menstrual period."]
-
+                         "This is a menstrual period."],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsK6lYXHkRwa4qO8bTCAj-dAG9YPHHr96PcA&usqp=CAU"
     },
     {
         "id": "2",
@@ -16,7 +16,8 @@
                 "fluid retention", "Muscle aches",
                 "Joint pain", "Headaches", "Acne", "Abdominal cramps",
                  "Diarrhea or constipation", 
-                "Lower back pain", "Trouble sleeping", "Low energy", "fatigue"]
+                "Lower back pain", "Trouble sleeping", "Low energy", "fatigue"],
+        "image": "https://www.shutterstock.com/image-vector/set-12-pms-symptoms-woman-260nw-1741748039.jpg"
     },
     {
         "id": "3",
@@ -27,7 +28,8 @@
             "Use unscented toilet paper, tampons, or pads.",
             "Use unscented toilet paper, tampons, or pads.",
             "Drink enough liquids."
-        ]
+        ],
+        "image": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/05/pjimage-2022-05-28t092942-1653710388.jpg"
     },
     {
         "id": "4",
@@ -39,7 +41,8 @@
             "PMS is a series of symptoms impacting a woman’s emotional health, physical health, and behavior between ovulation and a period. These symptoms begin before 5 to 11 days of menstruation and resolve once menstruation begins.",
             "20% of women experience heavy bleeding that disrupts their daily activities. Heavy menstrual bleeding is 10 to 25 times more severe than normal periods. This can be expected when you start menstruating or in your late 40s or 50s when you get closer to menopause."
             
-        ]
+        ],
+        "image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/09/Two_women_with_hands_over_stomach-732x549-thumbnail-732x549.jpg?w=756&h=567"
     },
     {
         "id": "5",
@@ -48,7 +51,8 @@
             "Period poverty describes the struggle many low-income women and girls face while trying to afford menstrual products.",
             "The term also refers to the increased economic vulnerability women and girls face due the financial burden posed by menstrual supplies.",
             "Difficulty affording menstrual products can cause girls to stay home from school and work, with lasting consequences on their education and economic opportunities. "
-        ]
+        ],
+        "image": "https://syszim.org.zw/wp-content/uploads/2022/07/IMG-3870.png"
     },
     {
         "id": "5",
@@ -58,7 +62,8 @@
             "Contact your gov't leaders. Lobby with Women Representatives",
             "Join an organization. Many organizations offer distribution drives",
             "Donate your time and period products."
-        ]
+        ],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj4mlV705hLZvgZUyDx70GQLs0WQZNa96cMQ&usqp=CAU"
 
     }
 ]
