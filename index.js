@@ -38,3 +38,31 @@ function pageLoads() {
     })
 }
 console.log(alert ("Thank you for being here..."))
+function displayProducts(product) {
+    let card = document.createElement("li");
+    card.className = "card";
+    card.innerHTML = `
+    <img src=${product.image}class="card-img-top" alt=${product.name}>
+    <div class="card-body">
+      <p><b>Description:</b>${product.description}</p>
+      <a href="#" class="btn btn-primary">${product.price}</a>
+    </div> `;
+    document.querySelector("#products-list").appendChild(card);
+
+}
+function fetchProducts() {
+    fetch("http://localhost:3000/products")
+    .then((res) => res.json())
+    .then((products) => {
+        const productsList = document.querySelector("#products-list");
+        products.forEach((item) => {
+           const productsItem = document.createElement("li");
+           productsItem.className= "product item";
+           productsItem.textContent= item.name;
+           productsList.appendChild(productsItem);
+
+
+        })
+    })
+}
+fetchProducts()
