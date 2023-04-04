@@ -46,7 +46,7 @@ function displayProducts(products){
         <img src = "${products.image}">
         <p> ${products.description}</p>
         <p> ${products.price}</p>
-        
+        <button id="my-btn" padding-bottom = "20px">Buy</button>
         </div>
         `
     });
