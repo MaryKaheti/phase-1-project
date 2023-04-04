@@ -40,7 +40,7 @@ function pageLoads() {
 console.log(alert ("Thank you for being here..."))
 function displayProducts(product) {
     let card = document.createElement("li");
-    card.className = "card";
+    card.className = "card col-2 m-2";
     card.innerHTML = `
     <img src=${product.image}class="card-img-top" alt=${product.name}>
     <div class="card-body">
@@ -60,6 +60,9 @@ function fetchProducts() {
            productsItem.className= "product item";
            productsItem.textContent= item.name;
            productsList.appendChild(productsItem);
+           productsItem.addEventListener("click", () => {
+            displayProducts(product)
+           })
 
 
         })

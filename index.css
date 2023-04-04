@@ -1,0 +1,7 @@
+#products-list{
+    display: inline-flex;
+    /* list-style-type: '\1f601'; */
+}
+#products-list li{
+    margin:1rem;
+}
