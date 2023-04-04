@@ -31,3 +31,10 @@ function fetchData() {
     .catch((error)=> console.log(error));
 }
 fetchData();
+
+function pageLoads() {
+    window.addEventListener("mouseover", () => {
+        
+    })
+}
+console.log(alert ("Thank you for being here..."))
