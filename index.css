@@ -31,3 +31,16 @@
     display: flex;
     position: relative;
   }
+  #my-data{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+   }
+  #image-data{
+    border-radius: 5px;
+    width: 500px;
+  }
+  

@@ -1,11 +1,11 @@
 function displayData(data) {
     let card = document.createElement("li");
-    card.className = "card col-2 m-2";
+    card.className = "card ";
     card.innerHTML = `
-    <div>
+    <div id="my-data">
     <p><b>Title:</b> ${data.title}</p>
     <p><b>Description:</b> ${data.description}</p>
-    <img src = ${data.image}>
+    <img src = ${data.image} id="image-data">
     </div>
     
     `;
@@ -31,25 +31,24 @@ function fetchData() {
     .catch((error)=> console.log(error));
 }
 fetchData();
-// pageLoads()
 // function pageLoads() {
 //     window.addEventListener("mouseover", () => {
-//         alert("Thank you for being here!!")
+//         console.log("Thank you for being here!!")
 //     })
 // }
+// pageLoads()
 function displayProducts(products){
     let card = ''
     products.forEach(products => {
         card+=`
         <div class = 'card' id="my-card${products.id}">
-        <img src = "${products.image}">
+        <img src = "${products.image}" id="image-product">
         <p> ${products.description}</p>
         <p> ${products.price}</p>
         <button type='button' id="my-btn" padding-bottom = "20px">Buy</button>
         <button type='button' id="mydelete${products.id}" padding-bottom = "20px">Delete</button>
         </div>
         `
-
         document.querySelector("#products-list").innerHTML = card
 
 deleteProduct(products)
@@ -59,9 +58,6 @@ function fetchProducts() {
     fetch(" http://localhost:3000/products")
     .then(res => res.json())
     .then(products => displayProducts(products))
-
-
-
 }
 fetchProducts()
 function deleteProduct(products){
@@ -83,6 +79,3 @@ console.log('failed')
 })
 }
 
-function updateProducts(products) {
-    let updatebtn = document.getElementById()
-}
