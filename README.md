@@ -15,3 +15,6 @@ Here we have a very small in quantity section or div as you may call it.
 Four products presented in a row.
 A name, description and an image with a button to buy and one to have the delete function.
 Both the buy and delete function are click functions.
+## Feedback form
+This is where the user inputs their name, email and their feedback and submits it.
+Invoking POST.
