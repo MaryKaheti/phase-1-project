@@ -42,7 +42,7 @@ function displayProducts(products){
     let card = ''
     products.forEach(products => {
         card+=`
-        <div class = 'card'>
+        <div class = 'card' id="my-card">
         <img src = "${products.image}">
         <p> ${products.description}</p>
         <p> ${products.price}</p>

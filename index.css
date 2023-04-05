@@ -6,7 +6,7 @@
 #products-list li{
     margin:10%;
 }
-.card {
+#my-card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
     width: 300px;
@@ -16,13 +16,13 @@
 .container{
     padding: 2px 16px;
 }
-.card {
+#my-card {
     width: 50%;
     height: 500px;
     margin:20px;
   
   }
-  .card:hover {
+  #my-card {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
   #my-btn {
