@@ -6,6 +6,9 @@
 #products-list li{
     margin:10%;
 }
+body{
+    background-color: bisque;
+}
 #my-card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
@@ -13,20 +16,15 @@
     background-color: aliceblue;
     border-radius: 20px;
     float:left;
+    width: 50%;
+    height: 500px;
+    margin:20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .container{
     padding: 2px 16px;
 }
-#my-card {
-    width: 50%;
-    height: 500px;
-    margin:20px;
-  
-  }
-  #my-card {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
-  #my-btn {
+#my-btn {
     padding-bottom: 20px;
     color: blue;
     display: flex;

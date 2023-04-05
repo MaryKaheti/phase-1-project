@@ -37,6 +37,11 @@ fetchData();
 //     })
 // }
 // pageLoads()
+window.onload = function() {
+    alert("Thank you for being here!!");
+  }
+  
+
 function displayProducts(products){
     let card = ''
     products.forEach(products => {
@@ -78,4 +83,33 @@ console.log('failed')
 });
 })
 }
+const form = document.querySelector('#feedback-form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // prevent form from submitting
+
+  // get form data
+  const formData = new FormData(form);
+  const name = formData.get('name');
+  const email = formData.get('email');
+  const feedback = formData.get('feedback');
+
+  // send data to server
+  fetch('/api/feedback', {
+    method: 'POST',
+    body: JSON.stringify({ name, email, feedback }),
+    headers: { 'Content-Type': 'application/json' }
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    alert('Thank you for your feedback!');
+    form.reset();
+  })
+  .catch(error => {
+    console.error(error);
+    alert('Oops, something went wrong. Please try again later.');
+  });
+});
+
 
