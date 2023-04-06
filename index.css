@@ -48,3 +48,14 @@ body{
     height: 100px;
     object-fit: cover;
   } 
+  #feedback-form{
+    text-align: center;
+    
+  }
+h1{
+    font-size: larger;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 3px;
+  margin-top: 0px;
+ }

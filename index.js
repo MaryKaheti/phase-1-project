@@ -46,7 +46,7 @@ function displayProducts(products){
     let card = ''
     products.forEach(products => {
         card+=`
-        <div class = 'card' id="my-card${products.id}">
+        <div class = 'card col-2 m-4' id="my-card${products.id}" >
         <img src = "${products.image}" id="image-product">
         <p> ${products.description}</p>
         <p> ${products.price}</p>
