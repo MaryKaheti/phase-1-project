@@ -18,3 +18,10 @@ Both the buy and delete function are click functions.
 ## Feedback form
 This is where the user inputs their name, email and their feedback and submits it.
 Invoking POST.
+## CRUD OPERATIONS
+There is the delete function and the update function. The delete function deletes in the database and
+when you refresh its not there. The update / POST is nearly working.
+## Event Listeners
+Click.
+Submit
+DOMContentLoader: onload.

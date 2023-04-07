@@ -111,5 +111,15 @@ form.addEventListener('submit', (event) => {
     alert('Oops, something went wrong. Please try again later.');
   });
 });
-
+function updateProducts(products) {
+    fetch(`http://localhost:3000/products/${products.id}`,{
+        method:'POST',
+        headers:{
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(products)
+    })
+    .then(response => response.json())
+    .then(products => console.log(products))
+}
 
