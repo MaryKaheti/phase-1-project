@@ -25,3 +25,5 @@ when you refresh its not there. The update / POST is nearly working.
 Click.
 Submit
 DOMContentLoader: onload.
+## Challenges
+Activating search button.
