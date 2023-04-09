@@ -108,7 +108,7 @@ form.addEventListener('submit', (event) => {
   })
   .catch(error => {
     console.error(error);
-    alert('Oops, something went wrong. Please try again later.');
+    alert('Lets try that again .');
   });
 });
 function updateProducts(products) {
